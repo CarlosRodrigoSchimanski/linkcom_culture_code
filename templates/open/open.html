@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="../../scripts/open.js" defer></script>
+    <title>Open</title>
+</head>
+<body>
+    <section id="apresentation">
+        <img src="../../static/linkcomLogo.png" alt="logo link com" id="logo"/>
+        <button id="goToForm" class="" type="submit" onclick="showForm()">Fazer login</button>
+    </section>
+    <section id="login" class="none view">
+        <form id="form">
+            <div>
+                <h2>Seja bem vindo</h2>
+                <h1>Faça seu login</h1>
+            </div>
+            <div id="input">
+                <input type="text" id="email" placeholder="Email" required/>
+                <input type="password" id="password" placeholder="password" required/>
+            </div>
+            <button type="submit" id="enter">Entrar</button>
+        </form>
+    </section>
+</body>
+</html>

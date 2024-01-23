@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    display: flex;
+    background-image: url(../../static/banerClouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#apresentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 50vw;
+    padding: 60px;
+}
+
+#logo{
+    width: 100%;
+}
+
+#goToForm{
+    background-color: #DCB6F8;
+    width: 50%;
+    padding: 20px;
+    border-radius: 16px;
+    font-weight: bolder;
+}
+
+.view{
+    display: none;
+    background-color: whitesmoke;
+    border-radius: 32px 0px 0px 32px;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#form h2{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#form h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#input input{
+    padding: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    outline: none;
+}
+
+#input input:focus{
+    border: 1px solid green;
+}
+
+#form button{
+    background-color: #502B6B;
+    color: white;
+    padding: 12px 64px 12px 64px;
+    border-radius: 16px;
+}
+
+@media(min-width:1800px){
+    .view{
+        border-radius: 32px 32px 32px 32px;
+    }
+}
+
+@media(max-width:750px){
+    body{
+        flex-direction: column;
+    }
+    .view{
+        border-radius: 32px 32px 32px 32px;
+        width: 100%;
+    }
+}

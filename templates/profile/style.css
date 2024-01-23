@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98vw;
+    gap: 40px;
+}
+
+#profile, #content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 40px;
+    gap: 40px;
+}
+
+#navProfile, ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+#navProfile h2{
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+li{
+    font-size: 18px;
+}
+
+#menu{
+    width: 40vw;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+h3:hover{
+    border: 2px solid rgb(100, 26, 150);
+    border-radius: 20px;
+    outline: none;
+}
+
+.ico{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.white{
+    background: rgba(243, 227, 255, 1);
+}
+
+#card{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 40vw;
+    box-shadow: 3px 3px 31px -7px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.cardImg{
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+h4{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -7px rgba(0,0,0,0.75);
+}
+
+h5{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 12px;
+}
+
+#cardItens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.litleCard{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+    box-shadow: 1px 1px 10px -7px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.jewels{
+    display: flex;
+    padding: 20px;
+}
+
+.jewelsP{
+    font-size: 16px;
+}
+
+.jewelsYelow{
+    width: 55px;
+    height: 40px;
+}
+.jewelsPurple{
+    width: 55px;
+    height: 40px;
+}
+
+.litleCardImg{
+    width: 100px;
+    height: 100px;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(39, 20, 52);
+}

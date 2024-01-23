@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    gap: 40px;
+}
+
+#profile, #content{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 40px;
+}
+
+#navProfile, ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+#navProfile h2{
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+li{
+    font-size: 18px;
+}
+
+#content{
+    justify-content:space-around;
+    gap: 60px;
+}
+
+.item{
+    width: 470px;
+}
+
+#cardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#cardBody h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#cardBody h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#cardBody p{
+    font-size: 16px;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.voltar{
+    background-color: white;
+    color: rgba(80, 43, 107, 1);
+}
+
+.resgatar{
+    color: white;
+    background: rgba(80, 43, 107, 1);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.newItem{
+    width: 100px;
+    height: 100px;
+}

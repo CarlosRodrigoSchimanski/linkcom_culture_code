@@ -1,0 +1,68 @@
+{
+  "Users": [
+    {
+      "name": "adm1",
+      "email": "adm1@adm.com",
+      "password": "1234",
+      "imageLogim": "https://pics.craiyon.com/2023-06-27/287f2a60c2e74386b5a89c517eb527dc.webp",
+      "points": "10",
+      "itens": [
+        {
+          "name": "skate",
+          "price": "8",
+          "description": "This is a skate, it's very good for your mobilete",
+          "image": "https://a-static.mlcdn.com.br/1500x1500/skate-completo-semi-profissional-naruto-hypeboards-akatsuki/bfxdistribuidora/15835842481/fa2fa157290f070c95bee0bc97c85069.jpeg",
+          "id": "eff7"
+        },
+        {
+          "name": "head phone",
+          "price": "6",
+          "description": "This is a headphone, it's very good for listening to music",
+          "image": "https://m.media-amazon.com/images/I/510fmhNAgEL._AC_SL1000_.jpg",
+          "id": "eff8"
+        },
+        {
+          "name": "skate",
+          "price": "8",
+          "description": "This is a skate, it's very good for your mobilete",
+          "image": "https://a-static.mlcdn.com.br/1500x1500/skate-completo-semi-profissional-naruto-hypeboards-akatsuki/bfxdistribuidora/15835842481/fa2fa157290f070c95bee0bc97c85069.jpeg",
+          "id": "eff7"
+        },
+        {
+          "name": "skate",
+          "price": "8",
+          "description": "This is a skate, it's very good for your mobilete",
+          "image": "https://a-static.mlcdn.com.br/1500x1500/skate-completo-semi-profissional-naruto-hypeboards-akatsuki/bfxdistribuidora/15835842481/fa2fa157290f070c95bee0bc97c85069.jpeg",
+          "id": "eff7"
+        }
+      ],
+      "id": "eff9"
+    },
+    {
+      "name": "adm2",
+      "email": "adm2@adm.com",
+      "password": "1234",
+      "imageLogim": "https://pics.craiyon.com/2023-07-24/0858413176e34b62b48dfae1f56b63fa.webp",
+      "points": "150",
+      "itens": [
+      ],
+      "id": "ef11"
+    }
+  ],
+  "Store": [
+    {
+      "name": "head phone",
+      "price": "6",
+      "description": "This is a headphone, it's very good for listening to music",
+      "image": "https://m.media-amazon.com/images/I/510fmhNAgEL._AC_SL1000_.jpg",
+      "id": "eff8"
+    },
+    {
+      "name": "skate",
+      "price": "8",
+      "description": "This is a skate, it's very good for your mobilete",
+      "image": "https://a-static.mlcdn.com.br/1500x1500/skate-completo-semi-profissional-naruto-hypeboards-akatsuki/bfxdistribuidora/15835842481/fa2fa157290f070c95bee0bc97c85069.jpeg",
+      "id": "eff7"
+    }
+  ]
+}
