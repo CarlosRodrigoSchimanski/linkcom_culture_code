@@ -5,6 +5,7 @@ const showForm = ()=>{
 
 const formulario = document.querySelector('#form')
 formulario.addEventListener('submit', async(evento) =>{
+    evento.preventDefault()
 
     const email = document.querySelector("#email").value
     const password = document.querySelector("#password").value
@@ -14,8 +15,7 @@ formulario.addEventListener('submit', async(evento) =>{
     users.forEach(element => {
         if(element.email === email  && element.password === password){
             window.location = `../home/home.html?id=${element.id}`
-        }else{
-            alert("usuario ou senha invalidos")
+            console.log(element)
         }
     })
 })

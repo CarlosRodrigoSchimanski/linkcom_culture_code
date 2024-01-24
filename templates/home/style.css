@@ -169,7 +169,7 @@ footer h2{
 #card{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 250px;
     height: 350px;
     box-shadow: 0px 7px 30px 0px rgba(187, 192, 205, 0.4);
     border-radius: 20px;

@@ -19,7 +19,22 @@ const back = (id) =>{
 }
 
 const registerBalace = async(user,price,product) =>{
+
+    const data = new Date()
+    const day = String(data.getDate()).padStart(2,'0')
+    const month = String(data.getMonth() + 1).padStart(2,'0')
+    const year = data.getFullYear()
+
     let itens = user.itens
+    product = {
+        "name": product.name,
+        "price": product.price,
+        "description": product.description,
+        "image": product.image,
+        "id": product.id,
+        "date":`${day}/${month}/${year}` 
+    }
+    
     itens.push(product)
     const newUser = {
         "name":user.name,

@@ -5,35 +5,31 @@
       "email": "adm1@adm.com",
       "password": "1234",
       "imageLogim": "https://pics.craiyon.com/2023-06-27/287f2a60c2e74386b5a89c517eb527dc.webp",
-      "points": "10",
+      "points": "56",
       "itens": [
         {
-          "name": "skate",
-          "price": "8",
-          "description": "This is a skate, it's very good for your mobilete",
-          "image": "https://a-static.mlcdn.com.br/1500x1500/skate-completo-semi-profissional-naruto-hypeboards-akatsuki/bfxdistribuidora/15835842481/fa2fa157290f070c95bee0bc97c85069.jpeg",
-          "id": "eff7"
-        },
-        {
-          "name": "head phone",
+          "name": "Headset Gamer Redragon Zeus X, Preto/Vermelho - H510-RGB",
           "price": "6",
-          "description": "This is a headphone, it's very good for listening to music",
-          "image": "https://m.media-amazon.com/images/I/510fmhNAgEL._AC_SL1000_.jpg",
-          "id": "eff8"
+          "description": "Iluminação RGB Redragon Chroma Mk.II com 4 efeitos, almofadas e revestimento interno do arco em tecido para proporcionar o máximo de conforto, som estéreo e Surround 7.1 Virtual de alta qualidade pelos drivers de 53mm, microfone com redução de ruído de fundo para captação clara e limpa, controladora integrada para maior praticidade durante o uso, compatível com software para ajustes e configurações personalizadas como equalização e controle de volume independente.",
+          "image": "https://images.tcdn.com.br/img/img_prod/1042771/headset_gamer_redragon_zeus_x_chroma_mk_ii_rgb_surround_7_1_usb_drivers_53mm_h510_rgb_2637_1_e99a05eb7217f967d95f48284c2b6c97.jpg",
+          "id": "eff8",
+          "date": "24/01/2024"
         },
         {
-          "name": "skate",
-          "price": "8",
-          "description": "This is a skate, it's very good for your mobilete",
-          "image": "https://a-static.mlcdn.com.br/1500x1500/skate-completo-semi-profissional-naruto-hypeboards-akatsuki/bfxdistribuidora/15835842481/fa2fa157290f070c95bee0bc97c85069.jpeg",
-          "id": "eff7"
+          "name": "Gabinete Gamer Galax Revolution-05, Com 4 Coolers, ATX, ITX, Mini-ATX",
+          "price": "20",
+          "description": "Conheça o gabinete gamer Revolution-05 da Galax, um produto projetado e construído no modelo Full Tower para acomodar grande maioria dos hardwares do mercado. Nele é possível fazer instalação de placas mãe do modelo ATX, Mini ATX, Mini ITX e placas de vídeo maiores, como as renomadas RTX 3060, RTX 3070, RTX 3080 e RTX 3090.O gabinete Revolution-05 vem acompanhado de 4 coolers pré-instalados em locais que maximizam o fluxo de ar e mantém baixas temperaturas na parte interna de maneira mais eficaz. Este modelo de gabinete da Galax possui a lateral em vidro temperado e funções de acesso rápido, como o botão de ligar na parte superior frontal, junto das portas USB 2.0, USB 3.0, entrada de áudio e de microfone",
+          "image": "https://cdn.dooca.store/2367/products/oge7mkevwfxs7jne8kbhclnoqkt3yl0lva6h_600x800+fill_ffffff.jpg?v=1694660229&webp=0",
+          "id": "eff4",
+          "date": "24/01/2024"
         },
         {
-          "name": "skate",
-          "price": "8",
-          "description": "This is a skate, it's very good for your mobilete",
-          "image": "https://a-static.mlcdn.com.br/1500x1500/skate-completo-semi-profissional-naruto-hypeboards-akatsuki/bfxdistribuidora/15835842481/fa2fa157290f070c95bee0bc97c85069.jpeg",
-          "id": "eff7"
+          "name": "Mouse Gamer Redragon Cobra, Chroma RGB, 10000DPI, 7 Botões",
+          "price": "6",
+          "description": "O Mouse Gamer Redragon Cobra, possui sensor PIXART 3327 para Alta Performance (20 G / 100 IPS) e seu sistema é de Iluminação RGB Redragon Chroma Mk.II (7 Diferentes Modos de Iluminação). Possui Polling Rate de 1000hz (Tempo de Resposta Ajustável via Software de 1/2/4/8ms), com 8 Botões Programáveis e 2 Botões laterais para funções / atalhos, macros, etc. Tudo isso com 130 gramas, leve e preciso para aquela jogada especial.",
+          "image": "https://hookpcs.com.br/wp-content/uploads/2022/08/Sem-Titulo-8.png",
+          "id": "eff7",
+          "date": "24/01/2024"
         }
       ],
       "id": "eff9"
@@ -44,18 +40,59 @@
       "password": "1234",
       "imageLogim": "https://pics.craiyon.com/2023-07-24/0858413176e34b62b48dfae1f56b63fa.webp",
       "points": "150",
-      "itens": [
-      ],
+      "itens": [],
       "id": "ef11"
     }
   ],
   "Store": [
     {
-      "name": "head phone",
+      "name": "Headset Gamer Redragon Zeus X, Preto/Vermelho - H510-RGB",
       "price": "6",
-      "description": "This is a headphone, it's very good for listening to music",
-      "image": "https://m.media-amazon.com/images/I/510fmhNAgEL._AC_SL1000_.jpg",
+      "description": "Iluminação RGB Redragon Chroma Mk.II com 4 efeitos, almofadas e revestimento interno do arco em tecido para proporcionar o máximo de conforto, som estéreo e Surround 7.1 Virtual de alta qualidade pelos drivers de 53mm, microfone com redução de ruído de fundo para captação clara e limpa, controladora integrada para maior praticidade durante o uso, compatível com software para ajustes e configurações personalizadas como equalização e controle de volume independente.",
+      "image": "https://images.tcdn.com.br/img/img_prod/1042771/headset_gamer_redragon_zeus_x_chroma_mk_ii_rgb_surround_7_1_usb_drivers_53mm_h510_rgb_2637_1_e99a05eb7217f967d95f48284c2b6c97.jpg",
       "id": "eff8"
+    },
+    {
+      "name": "Mouse Gamer Redragon Cobra, Chroma RGB, 10000DPI, 7 Botões",
+      "price": "6",
+      "description": "O Mouse Gamer Redragon Cobra, possui sensor PIXART 3327 para Alta Performance (20 G / 100 IPS) e seu sistema é de Iluminação RGB Redragon Chroma Mk.II (7 Diferentes Modos de Iluminação). Possui Polling Rate de 1000hz (Tempo de Resposta Ajustável via Software de 1/2/4/8ms), com 8 Botões Programáveis e 2 Botões laterais para funções / atalhos, macros, etc. Tudo isso com 130 gramas, leve e preciso para aquela jogada especial.",
+      "image": "https://hookpcs.com.br/wp-content/uploads/2022/08/Sem-Titulo-8.png",
+      "id": "eff7"
+    },
+    {
+      "name": "Teclado Mecânico Gamer T-Dagger Bora, RGB, Preto - T-TGK315-BROWN",
+      "price": "7",
+      "description": "O T-Dagger Bora RGB traz tudo que um teclado mecânico deve ter: um RGB encantador, Switches de confiança, teclas que não desgastam e um prazer de uso absoluto!.Inclui iluminação RGB individual por tecla que pode ser customizada tanto diretamente no teclado ou pelo software. O design elegante com as teclas flutuantes trazem estilo ao Bora sem comprometer a estética minimalista. O Bora também é de fácil transporte devido ao seu cabo removível.",
+      "image": "https://images.tcdn.com.br/img/img_prod/782660/teclado_mecanico_gamer_t_dagger_bora_rgb_switch_outemu_brown_pt_t_tgk315_brown_879_1_788b85cd50a6317f0fedcb2e5a383917_20230626165417.jpeg",
+      "id": "eff6"
+    },
+    {
+      "name": "Caixa de Som Gamer Husky Gaming Storm, Preto, 6W, Rainbow - HGMK000",
+      "price": "8",
+      "description": "A Caixa de Som Gamer Husky Storm oferece alto-falantes de alta qualidade e Potência RMS de 6W, com som nítido e preciso, acompanhados da iluminação Rainbow, que acrescenta mais estilo ao seu setup. A caixa de som gamer é pensada para você ter o som perfeito durante o gameplay de seus jogos online favoritos, como League of Legends, Free Fire, Fortnite e CS:GO.",
+      "image": "https://acdn.mitiendanube.com/stores/001/600/600/products/img_20210315_1359211-ab8a1ee846bc11469a16158277940907-1024-1024.jpg",
+      "id": "eff5"
+    },
+    {
+      "name": "Gabinete Gamer Galax Revolution-05, Com 4 Coolers, ATX, ITX, Mini-ATX",
+      "price": "20",
+      "description": "Conheça o gabinete gamer Revolution-05 da Galax, um produto projetado e construído no modelo Full Tower para acomodar grande maioria dos hardwares do mercado. Nele é possível fazer instalação de placas mãe do modelo ATX, Mini ATX, Mini ITX e placas de vídeo maiores, como as renomadas RTX 3060, RTX 3070, RTX 3080 e RTX 3090.O gabinete Revolution-05 vem acompanhado de 4 coolers pré-instalados em locais que maximizam o fluxo de ar e mantém baixas temperaturas na parte interna de maneira mais eficaz. Este modelo de gabinete da Galax possui a lateral em vidro temperado e funções de acesso rápido, como o botão de ligar na parte superior frontal, junto das portas USB 2.0, USB 3.0, entrada de áudio e de microfone",
+      "image": "https://cdn.dooca.store/2367/products/oge7mkevwfxs7jne8kbhclnoqkt3yl0lva6h_600x800+fill_ffffff.jpg?v=1694660229&webp=0",
+      "id": "eff4"
+    },
+    {
+      "name": "skate",
+      "price": "8",
+      "description": "This is a skate, it's very good for your mobilete",
+      "image": "https://a-static.mlcdn.com.br/1500x1500/skate-completo-semi-profissional-naruto-hypeboards-akatsuki/bfxdistribuidora/15835842481/fa2fa157290f070c95bee0bc97c85069.jpeg",
+      "id": "eff3"
+    },
+    {
+      "name": "skate",
+      "price": "8",
+      "description": "This is a skate, it's very good for your mobilete",
+      "image": "https://a-static.mlcdn.com.br/1500x1500/skate-completo-semi-profissional-naruto-hypeboards-akatsuki/bfxdistribuidora/15835842481/fa2fa157290f070c95bee0bc97c85069.jpeg",
+      "id": "eff2"
     },
     {
       "name": "skate",

@@ -35,6 +35,7 @@ const applyMyItens = (user) =>{
             cardItens.innerHTML+=
             `
             <div class="litleCard">
+                <p><strong>${item.date}</strong></p>
                 <img class="litleCardImg" src="${item.image}" alt="imagem perfil"/>
                 <h5>${item.name}</h5>
                 <p>${item.price} jóias</p>
