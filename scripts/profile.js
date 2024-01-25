@@ -100,12 +100,21 @@ const loadUser = async(id) =>{ // pega o usuario no banco de dados atraves do id
     return user
 }
 
+const nav = (id) =>{
+    const home = document.getElementById('home')
+
+    home.addEventListener("click", ()=>{
+        window.location = `../home/home.html?id=${id}`
+    })
+}
+
 const loadData = async() =>{
     const parametros = new URLSearchParams(window.location.search)
 
     const userID = parametros.get('id')
-    console.log(userID)
+    
     const user = await loadUser(userID)
+    nav(user.id)
     applyUserProperties(user)
     applyMyDate(user)
     applyMyItens(user)

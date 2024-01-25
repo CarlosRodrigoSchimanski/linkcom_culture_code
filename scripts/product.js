@@ -103,6 +103,19 @@ const showCard = (product,user) =>{ // com o produto eu pego as caracteristicar 
         `
 }
 
+const nav = (id) =>{
+    const home = document.getElementById('home')
+    const profile = document.getElementById('myProfile')
+    home.addEventListener("click", ()=>{
+        window.location = `../home/home.html?id=${id}`
+    })
+        
+    profile.addEventListener("click", ()=>{
+        window.location = `../profile/profile.html?id=${id}`
+    })
+    
+}
+
 const loadData = async() =>{
     const parametros = new URLSearchParams(window.location.search)
 
@@ -112,6 +125,7 @@ const loadData = async() =>{
     const user = await loadElement(`http://localhost:3000/Users/${userID}`)
     const product = await loadElement(`http://localhost:3000/Store/${productID}`)
 
+    nav(user.id)
     applyUserProperties(user)
     showCard(product,user)
 }

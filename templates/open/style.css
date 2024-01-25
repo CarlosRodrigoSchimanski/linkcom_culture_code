@@ -100,7 +100,7 @@ body{
         flex-direction: column;
     }
     .view{
-        border-radius: 32px 32px 32px 32px;
+        border-radius: 32px 32px 0px 0px;
         width: 100%;
     }
 }
