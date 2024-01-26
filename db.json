@@ -39,8 +39,25 @@
       "email": "adm2@adm.com",
       "password": "1234",
       "imageLogim": "https://pics.craiyon.com/2023-07-24/0858413176e34b62b48dfae1f56b63fa.webp",
-      "points": "150",
-      "itens": [],
+      "points": "131",
+      "itens": [
+        {
+          "name": "Headset Gamer Redragon Zeus X, Preto/Vermelho - H510-RGB",
+          "price": "6",
+          "description": "Iluminação RGB Redragon Chroma Mk.II com 4 efeitos, almofadas e revestimento interno do arco em tecido para proporcionar o máximo de conforto, som estéreo e Surround 7.1 Virtual de alta qualidade pelos drivers de 53mm, microfone com redução de ruído de fundo para captação clara e limpa, controladora integrada para maior praticidade durante o uso, compatível com software para ajustes e configurações personalizadas como equalização e controle de volume independente.",
+          "image": "https://images.tcdn.com.br/img/img_prod/1042771/headset_gamer_redragon_zeus_x_chroma_mk_ii_rgb_surround_7_1_usb_drivers_53mm_h510_rgb_2637_1_e99a05eb7217f967d95f48284c2b6c97.jpg",
+          "id": "eff8",
+          "date": "25/01/2024"
+        },
+        {
+          "name": "Teclado Mecânico Gamer T-Dagger Bora, RGB, Preto - T-TGK315-BROWN",
+          "price": "7",
+          "description": "O T-Dagger Bora RGB traz tudo que um teclado mecânico deve ter: um RGB encantador, Switches de confiança, teclas que não desgastam e um prazer de uso absoluto!.Inclui iluminação RGB individual por tecla que pode ser customizada tanto diretamente no teclado ou pelo software. O design elegante com as teclas flutuantes trazem estilo ao Bora sem comprometer a estética minimalista. O Bora também é de fácil transporte devido ao seu cabo removível.",
+          "image": "https://images.tcdn.com.br/img/img_prod/782660/teclado_mecanico_gamer_t_dagger_bora_rgb_switch_outemu_brown_pt_t_tgk315_brown_879_1_788b85cd50a6317f0fedcb2e5a383917_20230626165417.jpeg",
+          "id": "eff6",
+          "date": "25/01/2024"
+        }
+      ],
       "id": "ef11"
     }
   ],

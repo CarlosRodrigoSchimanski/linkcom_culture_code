@@ -1,3 +1,24 @@
+class ApiProduct{
+    constructor(name,price,description,image,id,date){
+        this.name = name
+        this.price= price
+        this.description = description
+        this.image = image
+        this.id = id
+        this.date = date
+    }
+}
+class NewUser{
+    constructor(name,email,password,imageLogim,points,itens) {
+        this.name = name
+        this.email = email
+        this.password = password
+        this.imageLogim = imageLogim
+        this.points = points
+        this.itens = itens
+    }
+}
+
 const applyUserProperties = (user) =>{ //recebe o usuario e coloca nos campos os devidos valores
     const divProfile = document.getElementById('navProfile')
 
@@ -26,24 +47,11 @@ const registerBalace = async(user,price,product) =>{
     const year = data.getFullYear()
 
     let itens = user.itens
-    product = {
-        "name": product.name,
-        "price": product.price,
-        "description": product.description,
-        "image": product.image,
-        "id": product.id,
-        "date":`${day}/${month}/${year}` 
-    }
-    
-    itens.push(product)
-    const newUser = {
-        "name":user.name,
-        "email":user.email,
-        "password":user.password,
-        "imageLogim":user.imageLogim,
-        "points" : `${(parseInt(user.points) - price)}`,
-        "itens":itens
-    }
+    // adicionando novo iten
+    itens.push(new ApiProduct(product.name,product.price,product.description,product.image,product.id,`${day}/${month}/${year}` ))
+
+    //montando clase newUser
+    const newuser = new NewUser(user.name,user.email,user.password,user.imageLogim,`${(parseInt(user.points) - price)}`,itens)
 
     await fetch(`http://localhost:3000/Users/${user.id}`,{
     method:'PUT',
@@ -51,7 +59,7 @@ const registerBalace = async(user,price,product) =>{
         'Accept':'application/json, text/plain, */*',
         'Content-Type':'application/json'
     },
-    body: JSON.stringify(newUser)
+    body: JSON.stringify(newuser)
 })
 }
 
@@ -64,7 +72,6 @@ const buyItem = async(productID,userID) =>{
         registerBalace(user,parseInt(product.price),product)
 
         const content = document.getElementById('content')
-        content.innerHTML = ``
         content.innerHTML =
         `
             <img class="item" src="../../static/gout.png" alt="grout"/>
