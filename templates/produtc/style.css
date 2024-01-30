@@ -40,6 +40,10 @@ li{
     font-size: 18px;
 }
 
+#myProfile:hover, #home:hover{
+    color: rgb(87, 93, 206);
+}
+
 #content{
     justify-content:space-around;
     gap: 60px;

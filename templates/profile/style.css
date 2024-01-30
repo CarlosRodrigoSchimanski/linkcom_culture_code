@@ -41,6 +41,10 @@ li{
     font-size: 18px;
 }
 
+#myProfile:hover, #home:hover{
+    color: rgb(87, 93, 206);
+}
+
 #menu{
     width: 40vw;
 }
@@ -110,6 +114,7 @@ p{
 
 #cardItens{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -122,6 +127,14 @@ p{
     width: 130px;
     box-shadow: 1px 1px 10px -7px rgba(0,0,0,0.75);
     border-radius: 10px;
+}
+
+#myData, #myItens, #myPoints, #close{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   border: none;
+   background-color: white;
 }
 
 .jewels{
@@ -153,4 +166,25 @@ p{
 
 ::-webkit-scrollbar-thumb{
     background-color: rgb(39, 20, 52);
+}
+
+@media(max-width:750px){
+    #profile, #content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    #menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 25%;
+    }
+
+    #myData h3, #myItens h3, #myPoints h3, #close h3{
+        display: none;
+    }
 }

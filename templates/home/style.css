@@ -62,6 +62,10 @@ ul, li{
     font-size: 18px;
 }
 
+#myProfile:hover, #home:hover{
+    color: rgb(87, 93, 206);
+}
+
 #cardHeader{
     position: relative;
     display: flex;
@@ -108,28 +112,60 @@ ul, li{
     font-size: 20px;
 }
 
-#search{
+#search1{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     position: absolute;
     width: 100%;
     bottom: -30px;
+
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+    width: 100%;
+    box-shadow: 0px 7px 30px 0px rgba(187, 192, 205, 0.4);
+    background-color: rgb(255, 255, 255);
+}
+
+#search2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+
+#buttonPesquisa{
+    white-space: nowrap;
+    border-radius: 12px;
+    color: whitesmoke;
+    background-color: #341b46;
+    max-width: 100%;
+    padding: 20px;
+    text-overflow:ellipsis;
+}
+
+#buttonPesquisa:hover{
+    background-color: #631d95;
 }
 
 #search img{
-    position: absolute;
-    left: 10px;
     width: 24px;
     height: 34px;
 }
 
 #search input{
-    font-size: 18px;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 7px 30px 0px rgba(187, 192, 205, 0.4);
+    font-size: 20px;
     width: 100%;
+    outline: none;
+    border: none;
 }
+
+
 
 #baner{
     width: 80%;
@@ -196,7 +232,7 @@ footer h2{
 }
 
 @media(max-width:750px){
-    #search{
+    #search1{
         width: 90vw;
     }
     #cardHeader{
