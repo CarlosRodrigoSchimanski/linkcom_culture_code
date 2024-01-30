@@ -53,7 +53,7 @@ const registerBalace = async(user,price,product) =>{
     //montando clase newUser
     const newuser = new NewUser(user.name,user.email,user.password,user.imageLogim,`${(parseInt(user.points) - price)}`,itens)
 
-    await fetch(`http://localhost:3000/Users/${user.id}`,{
+    await fetch(`https://carlosapi.onrender.com/Users/${user.id}`,{
     method:'PUT',
     headers:{
         'Accept':'application/json, text/plain, */*',
@@ -64,8 +64,8 @@ const registerBalace = async(user,price,product) =>{
 }
 
 const buyItem = async(productID,userID) =>{
-    const user = await loadElement(`http://localhost:3000/Users/${userID}`)
-    const product = await loadElement(`http://localhost:3000/Store/${productID}`)
+    const user = await loadElement(`https://carlosapi.onrender.com/Users/${userID}`)
+    const product = await loadElement(`https://carlosapi.onrender.com/Store/${productID}`)
 
     if (parseInt(user.points) >= parseInt(product.price)){
 
@@ -129,8 +129,8 @@ const loadData = async() =>{
     const userID = parametros.get('user')
     const productID = parametros.get('product')
 
-    const user = await loadElement(`http://localhost:3000/Users/${userID}`)
-    const product = await loadElement(`http://localhost:3000/Store/${productID}`)
+    const user = await loadElement(`https://carlosapi.onrender.com/Users/${userID}`)
+    const product = await loadElement(`https://carlosapi.onrender.com/Store/${productID}`)
 
     nav(user.id)
     applyUserProperties(user)

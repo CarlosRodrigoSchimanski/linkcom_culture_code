@@ -78,9 +78,9 @@ const loadData = async() =>{
     const parametros = new URLSearchParams(window.location.search)
     const id = parametros.get('id')
     nav(id)
-    const user = await loadElement(`http://localhost:3000/Users/${id}`)
+    const user = await loadElement(`https://carlosapi.onrender.com/Users/${id}`)
     applyUserProperties(user)
-    const store = await loadElement(`http://localhost:3000/Store`)
+    const store = await loadElement(`https://carlosapi.onrender.com/Store`)
     applyStoreItems(store,id)
     search(store,user)
 }

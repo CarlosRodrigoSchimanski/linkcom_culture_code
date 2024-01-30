@@ -96,7 +96,7 @@ const closeed = () =>{
     })}
 
 const loadUser = async(id) =>{ // pega o usuario no banco de dados atraves do id
-    const user = await(await fetch(`http://localhost:3000/Users/${id}`)).json() // pego o usuario pelo id ja convertendo para json
+    const user = await(await fetch(`https://carlosapi.onrender.com/Users/${id}`)).json() // pego o usuario pelo id ja convertendo para json
     return user
 }
 
