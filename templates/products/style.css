@@ -39,3 +39,9 @@ h1{
 #card p{
     font-size: 10px;
 }
+
+@media(max-width:750px){
+    #card{
+        width: 300px;
+    }
+}
