@@ -54,7 +54,7 @@ const applyStoreItems = async(store,id) =>{
 }
 
 const showCard = async(product,user) =>{
-    window.location = `../produtc/product.html?user=${user}&product=${product}` // quando for passar mais de um parametro não usa um segundo ? e sim um &
+    window.location = `../product/product.html?user=${user}&product=${product}` // quando for passar mais de um parametro não usa um segundo ? e sim um &
 }
 
 const search = (store,user) =>{

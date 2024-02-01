@@ -21,7 +21,7 @@ formulario.addEventListener('submit', async(evento) =>{
         )
     
     if (usuario.length > 0){
-        window.location = `../home/home.html?id=${usuario[0].id}`
+        window.location = `./templates/home/home.html?id=${usuario[0].id}`
     }else{
         alert("Usuario ou contrasenha incorretos")
     }

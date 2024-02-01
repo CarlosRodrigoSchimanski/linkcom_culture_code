@@ -9,7 +9,7 @@
 
 body{
     display: flex;
-    background-image: url(../../static/banerClouds.jpg);
+    background-image: url(./static/banerClouds.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
