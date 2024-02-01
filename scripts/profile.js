@@ -102,9 +102,13 @@ const loadUser = async(id) =>{ // pega o usuario no banco de dados atraves do id
 
 const nav = (id) =>{
     const home = document.getElementById('home')
+    const product = document.getElementById("Products")
 
     home.addEventListener("click", ()=>{
         window.location = `../home/home.html?id=${id}`
+    })
+    product.addEventListener("click", ()=>{
+        window.location = '../products/products.html'
     })
 }
 

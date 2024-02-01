@@ -35,7 +35,7 @@ const loadElement = async(url) =>{ // pega o item no banco de dados atraves do i
     return user
 }
 
-const back = (id) =>{
+const toBack = (id) =>{
     window.location = `../home/home.html?id=${id}`
 }
 
@@ -86,7 +86,7 @@ const buyItem = async(productID,userID) =>{
                 </div>
                 <p>O pedido sera enviado para o RH</p>
                 <h3>Meu saldo ${user.points} pontos</h3>
-                <button id="back" class="voltar" onclick="back('${user.id}')">Voltar</button>
+                <button id="back" class="voltar" onclick="toBack('${user.id}')">Voltar</button>
             </div>
         `
     }else{
@@ -113,12 +113,16 @@ const showCard = (product,user) =>{ // com o produto eu pego as caracteristicar 
 const nav = (id) =>{
     const home = document.getElementById('home')
     const profile = document.getElementById('myProfile')
+    const product = document.getElementById("Products")
     home.addEventListener("click", ()=>{
         window.location = `../home/home.html?id=${id}`
     })
         
     profile.addEventListener("click", ()=>{
         window.location = `../profile/profile.html?id=${id}`
+    })
+    product.addEventListener("click", ()=>{
+        window.location = '../products/products.html'
     })
     
 }

@@ -1,7 +1,11 @@
 const nav = (id) =>{
     const profile = document.getElementById('myProfile')
+    const product = document.getElementById("Products")
     profile.addEventListener("click", ()=>{
         window.location = `../profile/profile.html?id=${id}`
+    })
+    product.addEventListener("click", ()=>{
+        window.location = '../products/products.html'
     })
 }
 
@@ -50,7 +54,7 @@ const applyStoreItems = async(store,id) =>{
 }
 
 const showCard = async(product,user) =>{
-    window.location = `../produtc/produtc.html?user=${user}&product=${product}` // quando for passar mais de um parametro não usa um segundo ? e sim um &
+    window.location = `../produtc/product.html?user=${user}&product=${product}` // quando for passar mais de um parametro não usa um segundo ? e sim um &
 }
 
 const search = (store,user) =>{
@@ -68,7 +72,7 @@ const search = (store,user) =>{
         products.forEach(item => {
             divSearch.innerHTML += `<button id='buttonPesquisa' onclick="showCard('${item.id}','${user.id}')">${item.name}</button>`
         })
-        if(inputSearch.value === ''){
+        if(inputSearch.value === '' || inputSearch.value === " "){
             divSearch.innerHTML = ''
         }
     })

@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    padding: 20px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    background-color: rgb(20, 119, 119);
+    border-radius: 20px;
+    padding: 15px;
+    gap: 15px;
+}
+
+#card{
+    background-color: rgb(182, 178, 178);
+    width: 20%;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#card img{
+    width: 100%;
+}
+
+#card h2{
+    font-size: 15px;
+}
+
+#card p{
+    font-size: 10px;
+}
