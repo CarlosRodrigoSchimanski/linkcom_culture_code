@@ -41,10 +41,6 @@ li{
     font-size: 18px;
 }
 
-#myProfile:hover, #home:hover{
-    color: rgb(87, 93, 206);
-}
-
 #menu{
     width: 40vw;
 }
@@ -160,12 +156,8 @@ p{
     height: 100px;
 }
 
-::-webkit-scrollbar{
-    width: 20px;
-}
-
-::-webkit-scrollbar-thumb{
-    background-color: rgb(39, 20, 52);
+#myProfile:hover, #home:hover, #Products{
+    color: rgb(87, 93, 206);
 }
 
 @media(max-width:750px){
