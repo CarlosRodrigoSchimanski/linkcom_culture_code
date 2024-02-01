@@ -89,7 +89,7 @@ body{
     border-radius: 16px;
 }
 
-@media(min-width:1800px){
+@media(min-width:1930px){
     .view{
         border-radius: 32px 32px 32px 32px;
     }
