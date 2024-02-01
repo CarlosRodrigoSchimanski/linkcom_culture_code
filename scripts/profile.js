@@ -92,7 +92,7 @@ const applyMyPoints = () =>{
 const closeed = () =>{
     const close = document.getElementById('close')
     close.addEventListener("click", ()=>{
-        window.location = "../open/open.html"
+        window.location = "../../open/open.html"
     })}
 
 const loadUser = async(id) =>{ // pega o usuario no banco de dados atraves do id
