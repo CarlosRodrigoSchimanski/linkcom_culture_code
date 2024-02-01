@@ -40,7 +40,7 @@ li{
     font-size: 18px;
 }
 
-#myProfile:hover, #home:hover, #Products{
+#myProfile:hover, #home:hover, #Products:hover{
     color: rgb(87, 93, 206);
 }
 

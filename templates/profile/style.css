@@ -156,7 +156,7 @@ p{
     height: 100px;
 }
 
-#myProfile:hover, #home:hover, #Products{
+#myProfile:hover, #home:hover, #Products:hover{
     color: rgb(87, 93, 206);
 }
 
